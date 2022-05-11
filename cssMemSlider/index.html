@@ -10,24 +10,42 @@
 <body>
     <div class="wrapper">
         <div class="container">
+            
             <div class="img-content">
+                <input type="radio" name="image" value="img1" id="monk">
+                <input type="radio" name="image" value="img2" id="magic">
+                <input type="radio" name="image" value="img3" id="crocodile">
+                <input type="radio" name="image" value="img4" id="aqua">
 
+                <div class="first image">
+                    <img src="./assets/img/monk.png" id="tomonk">
+                </div>
+                <div class="image">
+                    <img src="./assets/img/magic.png" id="tomagic">
+                </div>
+                <div class="image">
+                    <img src="./assets/img/crocodile.png" id="tocroc">
+                </div>
+                <div class="image">
+                    <img src="./assets/img/aqua.png" id="toaqua">
+                </div>               
             </div>
+            
             <div class="container-content">
                 <div class="capture"></div>
                 <div class="control-block">
                     <div class="control-items">
                         <div class="control-item">
-                            <label><span><input type="radio" name="image" value="img1" checked></span></label>
+                            <label for="monk"><span></span></label>
                         </div>
                         <div class="control-item">
-                            <label><span><input type="radio" name="image" value="img1"></span></label>
+                            <label for="magic"><span></span></label>
                         </div>
                         <div class="control-item">
-                            <label><span><input type="radio" name="image" value="img1"></span></label>
+                            <label for="crocodile"><span></span></label>
                         </div>
                         <div class="control-item">
-                            <label><span><input type="radio" name="image" value="img1"></span></label>
+                            <label for="aqua"><span></span></label>
                         </div>
                     </div>
 
